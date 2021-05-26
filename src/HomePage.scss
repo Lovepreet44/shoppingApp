@@ -1,0 +1,28 @@
+$myColor: red;
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    width: 18rem;
+    height: 18rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 40px;
+    .box-items {
+      border: black solid;
+      width: max-content;
+    }
+    .title {
+      font-weight: bold;
+    }
+  }
+}
