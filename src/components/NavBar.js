@@ -22,7 +22,7 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <a className="nav-item nav-link active">
-              <Link to="/shop">Shop</Link>
+              <Link to="/">Shop</Link>
             </a>
             <a className="nav-item nav-link">
               <Link to="/content">Content</Link>

@@ -9,7 +9,7 @@ $myColor: red;
   .box {
     display: flex;
     flex-wrap: wrap;
-    border: solid black;
+    border-style: outset;
     width: 18rem;
     height: 18rem;
     text-align: center;
@@ -17,8 +17,9 @@ $myColor: red;
     justify-content: center;
     align-content: center;
     margin: 40px;
+
     .box-items {
-      border: black solid;
+      border-style: outset;
       width: max-content;
     }
     .title {

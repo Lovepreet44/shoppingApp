@@ -7,6 +7,7 @@ import Shop from "./components/Shop";
 import SignIn from "./components/SignIn";
 import Content from "./components/Content";
 import Error from "./components/Error";
+import SignUp from "./components/SignUp";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           <Route path="/shop" component={Shop} />
           <Route path="/signIn" component={SignIn} />
           <Route path="/content" component={Content} />
+          <Route path="/signup" component={SignUp} />
           <Route component={Error} />
         </Switch>
       </Router>
